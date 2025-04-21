@@ -21,6 +21,33 @@ body {
   nav button:hover {
     text-decoration: underline;
   }
+
+  .menu-tab {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .menu-category {
+    margin-bottom: 3rem;
+  }
+  
+  .menu-items {
+    display: grid;
+    gap: 1.5rem;
+  }
+  
+  .menu-item {
+    border-bottom: 1px dashed #ccc;
+    padding-bottom: 1rem;
+  }
+  
+  .name-price {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+  }
+  
   
   main {
     padding: 2rem;

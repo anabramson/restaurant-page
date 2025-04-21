@@ -56,7 +56,7 @@ export default function loadMenu() {
         span.textContent = item.price;
         
         namePrice.append(h3, span);
-        
+        git
         const p = document.createElement('p');
         p.textContent = item.desc;
         
